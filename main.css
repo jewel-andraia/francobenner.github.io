@@ -1,0 +1,95 @@
+#top-navbar {
+  background-color: #2C3E50;
+  color: #fff;
+  border: none;
+  position: fixed;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+}
+#introduction .container-fluid {
+  padding-bottom: 10%;
+}
+.c1 {
+  color: white;
+}
+.intro {
+  color: #fff;
+  background: #18bc9c;
+}
+.portfolio {
+  background-color: white;
+}
+.btn-line{
+  background: none;
+  border: 1px solid; /* problem on this line. border takes 3 arguments, needs a border style, e.g. solid, dashed, dotted, etc */
+  border-radius: 10px;
+  align-content: center;
+  justify-content: space-between;
+  width: 200px;
+  height: 50px;
+}
+body {
+  padding-top: 70px;
+  background-color: #18BC9C;
+  overflow-y: auto
+}
+.about {
+ background-color: rgb(233, 233, 233);
+
+}
+
+.card {
+    padding: 20px 0;
+    min-height: 500px;
+
+}
+.card-end {
+    padding: 20px 0;
+    min-height: 200px;
+    background-color: rgb(233, 233, 233);
+}
+.image1 {
+  margin:0 auto 20px;
+  border-radius: 100%;
+  align: middle;
+  height: 200px;
+  width: 200px;
+
+}
+#about img {
+  height: auto;
+  width: auto;
+}
+.portfolio-item {
+  float: none;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.contact {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+}
+.contact-header {
+  text-transform: uppercase;
+}
+.btn-contact {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border: 2px solid;
+  font-size: 30px;
+  border-radius: 100%;
+  line-height: 45px;
+}
+footer {
+  background-color: #2c3e50;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: #fff;
+}
