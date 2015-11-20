@@ -1,0 +1,18 @@
+body {
+  background: none;
+}
+.main-container {
+  padding-top: 10%;
+}
+.full {
+  background: url('bg1.jpg') no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+.well {
+  opacity: 0.8;
+  font-size: 36px;
+  background-color: #acacac;
+}
