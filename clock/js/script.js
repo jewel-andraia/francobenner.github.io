@@ -61,55 +61,55 @@ $(document).ready(function(){
     $("#timer").text(counter / 60 + ":" + "00")
     $(".ses-time").text(counter / 60);
   });
-  $(".1-min-b").click(function(){
+  $(".1-min-break").click(function(){
     b = 0;
     breaktime = breakCount[b] * 60;
     $("#timer").text(breaktime / 60 + ":" + "00")
     $(".br-time").text(breaktime / 60);
   });
-  $(".2-min-b").click(function(){
+  $(".2-min-break").click(function(){
     b = 1;
     breaktime = breakCount[b] * 60;
     $("#timer").text(breaktime / 60 + ":" + "00")
     $(".br-time").text(breaktime / 60);
   });
-  $(".3-min-b").click(function(){
+  $(".3-min-break").click(function(){
     b = 2;
     breaktime = breakCount[b] * 60;
     $("#timer").text(breaktime / 60 + ":" + "00")
     $(".br-time").text(breaktime / 60);
   });
-  $(".5-min-b").click(function(){
+  $(".5-min-break").click(function(){
     b = 3;
     breaktime = breakCount[b] * 60;
     $("#timer").text(breaktime / 60 + ":" + "00")
     $(".br-time").text(breaktime / 60);
   });
-  $(".10-min-b").click(function(){
+  $(".10-min-break").click(function(){
     b = 4;
     breaktime = breakCount[b] * 60;
     $("#timer").text(breaktime / 60 + ":" + "00")
     $(".br-time").text(breaktime / 60);
   });
-  $(".15-min-b").click(function(){
+  $(".15-min-break").click(function(){
     b = 5;
     breaktime = breakCount[b] * 60;
     $("#timer").text(breaktime / 60 + ":" + "00")
     $(".br-time").text(breaktime / 60);
   });
-  $(".20-min-b").click(function(){
+  $(".20-min-break").click(function(){
     b = 6;
     breaktime = breakCount[b] * 60;
     $("#timer").text(breaktime / 60 + ":" + "00")
     $(".br-time").text(breaktime / 60);
   });
-  $(".25-min-b").click(function(){
+  $(".25-min-break").click(function(){
     b = 7;
     breaktime = breakCount[b] * 60;
     $("#timer").text(breaktime / 60 + ":" + "00")
     $(".br-time").text(breaktime / 60);
   });
-  $(".30-min-b").click(function(){
+  $(".30-min-break").click(function(){
     b = 8;
     breaktime = breakCount[b] * 60;
     $("#timer").text(breaktime / 60 + ":" + "00")
